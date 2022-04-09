@@ -1,0 +1,52 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+        <execution>
+          <executable path="/opt/homebrew/bin/composer" />
+        </execution>
+      </component>
+      <component name="PhpIncludePathManager">
+        <include_path>
+          <path value="$USER_HOME$/.composer/vendor/deployer/deployer" />
+          <path value="$USER_HOME$/.composer/vendor/deployer/recipes" />
+        </include_path>
+      </component>
+      <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+      <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+        <include_path>
+          <path value="$USER_HOME$/.composer/vendor/deployer/deployer" />
+          <path value="$USER_HOME$/.composer/vendor/deployer/recipes" />
+        </include_path>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="advanced.settings" />
+      </component>
+      <component name="Yii2 Support">
+        <option name="migrateCommands">
+          <list>
+            <MigrateCommand>
+              <option name="isDefault" value="true" />
+              <option name="command" value="migrate" />
+              <option name="migrationTable" value="{{%migration}}" />
+              <option name="db" value="db" />
+              <option name="migrationPath">
+                <list>
+                  <option value="@app/migrations" />
+                </list>
+              </option>
+            </MigrateCommand>
+          </list>
+        </option>
+        <option name="aliasMap">
+          <map>
+            <entry key="@webroot" value="@app/web" />
+            <entry key="@vendor" value="vendor" />
+            <entry key="@runtime" value="@app/runtime" />
+            <entry key="@yii2support-console-command-app-root" value="" />
+          </map>
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>
